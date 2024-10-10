@@ -8,7 +8,7 @@ repo_data = pd.read_csv('repository_data.csv')
 
 combined_data = pd.concat([data, repo_data], ignore_index=True)
 
-st.markdown(
+st.markdown( 
     """
     <style>
     .reportview-container {
